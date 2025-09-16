@@ -11,5 +11,5 @@ def ping():
     return {"pong": True}
 
 @app.route("/hello")
-def ping():
+def ping2():
     return {"msg": "hello world"}
